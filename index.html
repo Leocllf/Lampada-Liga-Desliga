@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acendeApaga</title>
+
+    <style>
+        body{
+            background-color: black;
+        }
+        div{
+            text-align: center;
+            margin-top: 100px;
+        }
+        button{
+            display: block;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <img id="lampada" src="14316936_1066256746777529_4967694514765723558_n.png" alt="Lampada que acende e apaga">        
+    </div>
+    <button onclick="acender()">acender</button>
+    <button onclick="apagar()">apagar</button>
+
+<script>
+    function acender(){
+        document.querySelector('#lampada').src= '14316936_1066256746777529_4967694514765723558_n - Copia.png'
+    }
+    function apagar(){
+        document.querySelector('#lampada').src= '14316936_1066256746777529_4967694514765723558_n.png'
+    }
+
+</script>
+
+</body>
+</html>
